@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_pack_products_wizard" model="ir.actions.act_window">
+        <field name="name">Pack Products</field>
+        <field name="res_model">pack.products.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+    
+    <menuitem id="menu_pack_products_root" name="Pack Products" parent="stock.menu_stock_warehouse_mgmt" sequence="10" action="action_pack_products_wizard"/>
+
+</odoo>
